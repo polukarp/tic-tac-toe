@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="stylesheet" href="/src/index.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite + TS</title>
+	</head>
+	<body>
+		<div id="app" class="grid place-content-center min-h-screen">
+			<div class="prose text-center">
+				<h1>Tic-Tac-Toe</h1>
+			</div>
+
+			<div
+				class="w-[500px] h-[500px] bg-gray-500 grid grid-cols-3 grid-rows-3 text-white font-bold text-5xl relative"
+			>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="1"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="2"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="3"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="4"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="5"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="6"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="7"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="8"
+				></div>
+				<div
+					class="grid place-content-center border-black border hover:bg-gray-600 transition duration-75 cursor-pointer"
+					data-index="9"
+				></div>
+				<div id="win-popup" class="absolute hidden w-full h-full bg-black">
+					<h1 id="winner" class="z-10"></h1>
+					<button id="play-again-btn" class="bg-white text-black">PLAY AGAIN?</button>
+				</div>
+			</div>
+		</div>
+
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
