@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game: The Fun Edition
+# Tic-Tac-Toe Game
 
 Welcome to the repository of the Tic-Tac-Toe game that I, your friendly neighborhood code wizard, developed as part of [The Odin Project](https://www.theodinproject.com/). This project is not just about playing a classic game of Tic-Tac-Toe, but also about learning some serious tech magic.
 
