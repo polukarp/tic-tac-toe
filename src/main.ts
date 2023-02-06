@@ -1,7 +1,3 @@
-type Cell = {
-	id: number;
-	value: CellValue;
-};
 type Player = 'X' | 'O';
 type CellValue = Player & '';
 
@@ -123,8 +119,7 @@ const GameBoard = () => {
 	return { getBoard, setCellValue, getData, resetBoard };
 };
 
-let board = GameBoard();
-let game = Game(board);
+Game(GameBoard());
 
 try {
 	playAgainBtn?.addEventListener('click', () => {
